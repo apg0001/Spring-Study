@@ -13,7 +13,7 @@ public class MemoryMemberRepository implements MemberRepository {
     }
 
     @Override
-    public Member findByID(Long memberID) {
+    public Member findById(Long memberID) {
         return store.get(memberID);
     }
 }
